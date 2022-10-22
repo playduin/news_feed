@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/newsFeedFragment">
+
+    <fragment
+        android:id="@+id/newsFeedFragment"
+        android:name="playduin.newsfeed.ui.newsfeed.NewsFeedFragment"
+        android:label="NewsFeedFragment"
+        tools:layout="@layout/newsfeed_fragment">
+        <action
+            android:id="@+id/action_newsFeedFragment_to_newsItemFragment"
+            app:destination="@id/newsItemFragment" />
+        <action
+            android:id="@+id/action_newsFeedFragment_to_selectSourceFragment"
+            app:destination="@id/selectSourceFragment" />
+        <action
+            android:id="@+id/action_newsFeedFragment_to_newsFeedFragment"
+            app:destination="@id/newsFeedFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/newsItemFragment"
+        android:name="playduin.newsfeed.ui.newsitem.NewsItemFragment"
+        android:label="NewsItemFragment"
+        tools:layout="@layout/newsitem_fragment">
+        <action
+            android:id="@+id/action_newsItemFragment_to_newsFeedFragment"
+            app:destination="@id/newsFeedFragment" />
+        <action
+            android:id="@+id/action_newsItemFragment_to_selectSourceFragment"
+            app:destination="@id/selectSourceFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/selectSourceFragment"
+        android:name="playduin.newsfeed.ui.selectsource.SelectSourceFragment"
+        android:label="SelectSourceFragment"
+        tools:layout="@layout/select_source_fragment">
+        <action
+            android:id="@+id/action_selectSourceFragment_to_newsFeedFragment"
+            app:destination="@id/newsFeedFragment" />
+    </fragment>
+
+</navigation>

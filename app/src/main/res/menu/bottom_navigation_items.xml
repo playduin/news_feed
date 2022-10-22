@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_all"
+        android:icon="@drawable/outline_visibility_24"
+        android:title="@string/bottom_navigation_all" />
+    <item
+        android:id="@+id/action_groups"
+        android:icon="@drawable/outline_filter_list_24"
+        android:title="@string/bottom_navigation_groups" />
+    <item
+        android:id="@+id/action_saved"
+        android:icon="@drawable/outline_bookmark_24"
+        android:title="@string/bottom_navigation_saved" />
+</menu>

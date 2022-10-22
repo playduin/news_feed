@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">News Feed</string>
+    <string name="bottom_navigation_all">All</string>
+    <string name="bottom_navigation_groups">Groups</string>
+    <string name="bottom_navigation_saved">Saved</string>
+    <string name="open_in_browser">Open in browser</string>
+    <string name="share_newsitem">Share news item</string>
+    <string name="choose_application">Choose application</string>
+    <string name="network_error_message">Can\'t fetch news feed. Internet connection error.</string>
+    <string name="ok">OK</string>
+    <string name="open_in_browser_error">Sorry, You don\'t have app that for sharing/browsing or whatever</string>
+</resources>

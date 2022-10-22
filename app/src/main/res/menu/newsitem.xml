@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/open_in_browser_btn"
+        android:title="@string/open_in_browser"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/share_newsitem_btn"
+        android:title="@string/share_newsitem"
+        app:showAsAction="never" />
+</menu>
